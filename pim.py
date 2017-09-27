@@ -20,7 +20,6 @@ val = sum([len(i) for i in inp.values()])
 # print val
 count = 1
 while val != 0:
-	print 'Start of Round', count
 	using = []
 	needtomap = {}
 	mapped = {}
@@ -31,7 +30,7 @@ while val != 0:
 			needtomap[i] = 1
 	iterCount = 1
 	while 1:
-		print 'Start of Iteration', iterCount
+		print 'Round', count, 'Iter', iterCount
 		cnt = 0
 		for i in inp.keys():
 			if needtomap[i] == mapped[i]:
@@ -79,8 +78,6 @@ while val != 0:
 
 			using.append(k)
 			inp[i].remove(k)
-		print 'End of Iteration', iterCount
 		iterCount += 1
 	val = sum([len(i) for i in inp.values()])
-	print 'End of Round', count
 	count += 1
