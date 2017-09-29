@@ -9,7 +9,7 @@ Run the iSLIP program by using `python islip.py`
 The first line of the input must be the number of ports(n)
 The next n lines should be the list of output ports mapped to each input port
 
-Output will be of the form
+# Output format
 Start of Round 1
 Start of Iteration 1
 --
