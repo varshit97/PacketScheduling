@@ -12,9 +12,9 @@ The next n lines should be the list of output ports mapped to each input port
 # Output format
 Start of Round 1
 Start of Iteration 1
---
---
---
---
+\- \-
+\- \-
+\- \-
+\- \-
 End of Iteration 1
 End of Round 1.....
